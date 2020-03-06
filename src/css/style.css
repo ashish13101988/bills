@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro;
+    font-family: 'Lato',
+    sans-serif;
+}
+
+:root{
+    --bg-color-- : #dcd6f7;
+    --text-color-- :#424874;
+    --bg-secondary--: #a6b1e1;
+}
+.custom-text-primary{
+    color: var(--text-color--);
+}
+
+
+.steps-box {
+   -webkit-box-shadow: 3px -1px 4px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 3px -1px 4px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 3px -1px 4px 0px rgba(0, 0, 0, 0.75);
+   
+}
+
+.steps-box__due input{
+     display: none;
+}
+.steps-box__due{
+    min-width: 10rem;
+    background-color: red;
+    padding: 1rem;
+    color: var(--text-color--);
+    background-color: var(--bg-color--);
+    border: 1px solid var(--text-color--);
+    
+}
+.steps-box__due:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 3px -1px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px -1px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: var(--bg-secondary--);
+}
+
+.has-error{
+    border-color: red;
+    color:red;
+    
+    
+}
